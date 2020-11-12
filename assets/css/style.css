@@ -112,11 +112,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(0, 2, 5, 0.9);
 }
 
 #header .logo {
-  font-size: 30px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -226,7 +226,9 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu .drop-down .drop-down > a {
   padding-right: 35px;
 }
-
+.ctm-container {
+  max-width: 90% !important;
+}
 .nav-menu .drop-down .drop-down > a:after {
   content: "\eaa0";
   font-family: IcoFont;
